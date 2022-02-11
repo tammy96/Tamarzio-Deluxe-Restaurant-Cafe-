@@ -9,62 +9,127 @@
     <title>Tamarzio Deluxe Restaurant | Cafe  </title>
 </head>
 <body>
+<!-- navigation menu section -->
 
+  <!-- <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+      <span class="sr-only">Menu</span>
+    </button> -->
+        
+      
+    <nav id="navbar" class="flex">
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+          </button>
+
+        <div class="logo flex">
+            <!-- <span class="text-primary">Tamarzio</span>
+             <span class="text-primary"> -->
+               <img src="./img/chef.png" class="logo-img" alt="">
+               <h2 class="m-heading text-primary flex">
+                Tamarzio
+             </h2>
+             </div>
+
+
+
+             
+                <ul id="primary-navigation" data-visible="false"  class="primary-navigation flex on-click">
+                    <li class="on-click">
+                        <a href="#" class="on-click"><span aria-hidden="true"></span>Home</a>
+                    </li>
+
+                    <li class="on-click">
+                        <a href="#about" class="on-click"><span aria-hidden="true"></span>About</a>
+                    </li>
+                    <li class="on-click">
+                        <a href="#menu" class="on-click"><span aria-hidden="true"></span>Our Menu</a>
+                    </li>
+
+                    <li class="on-click">
+                        <a href="#gallery" class="on-click"><span aria-hidden="true"></span>Our Gallery</a>
+                    </li>
+                    
+                    <li class="on-click">
+                        <a href="#team" class="on-click"><span aria-hidden="true"></span>Our Team</a>
+                    </li>
+
+                    <li class="on-click">
+                        <a href="#testimonial" class="on-click"><span aria-hidden="true"></span>Testimonials</a>
+                    </li>
+
+                    <li class="on-click">
+                        <a href="#contact" class="on-click"><span aria-hidden="true"></span>Contact</a>
+                    </li>
+                </ul>
+
+        <!-- <ul class="flex"> -->
+            <!-- <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us  <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown_menu">
+                <ul>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#gallery">Our Gallery</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                </ul>
+            </div>
+            </li> -->
+
+            <!-- <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#gallery">Our Gallery</a></li>
+            <li><a href="#team">Our Team</a></li> -->
+
+                        <!-- <li><a href="#testimonial">Testimonials</a></li>
+                                    <li><a href="#contact">Contact Us</a></li> -->
+        <!-- </ul> -->
+    </nav>
+
+    <!-- header section -->
     <header>
 
 
-        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
+        <!-- <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button> -->
         
-        <nav id="navbar" class="flex">
+        <!-- <nav id="navbar" class="flex">
 
             <div class="logo flex">
-                <!-- <span class="text-primary">Tamarzio</span>
-                 <span class="text-primary"> -->
                    <img src="./img/chef.png" class="logo-img" alt="">
                    <h2 class="m-heading text-primary flex">
                     Tamarzio
                  </h2>
-                 </div>
+                 </div> -->
 
 
-            <ul>
-                <!-- <li><a href="#">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#menu">Our Menu</a></li>
-                <li><a href="#gallery">Our Gallery</a></li>
-                <li><a href="#team">Our Team</a></li>
-                <li><a href="#testimonial">Testimonials</a></li>
-                <li><a href="#contact">Contact Us</a></li> -->
 
+<!-- 
                 <ul id="primary-navigation" data-visible="false"  class="primary-navigation flex">
                     <li>
                         <a href="#"><span aria-hidden="true"></span>Home</a>
                     </li>
 
-                    <li>
-                        <a href="#about"><span aria-hidden="true"></span>About</a>
+                    <li class="on-click">
+                        <a href="#about" class="on-click"><span aria-hidden="true"></span>About</a>
                     </li>
-                    <li>
-                        <a href="#menu"><span aria-hidden="true"></span>Our Menu</a>
+                    <li class="on-click">
+                        <a href="#menu" class="on-click"><span aria-hidden="true"></span>Our Menu</a>
                     </li>
 
-                    <li>
-                        <a href="#gallery"><span aria-hidden="true"></span>Our Gallery</a>
+                    <li class="on-click">
+                        <a href="#gallery" class="on-click"><span aria-hidden="true"></span>Our Gallery</a>
                     </li>
                     
-                    <li>
-                        <a href="#team"><span aria-hidden="true"></span>Our Team</a>
+                    <li class="on-click">
+                        <a href="#team" class="on-click"><span aria-hidden="true"></span>Our Team</a>
                     </li>
 
-                    <li>
-                        <a href="#testimonial"><span aria-hidden="true"></span>Testimonials</a>
+                    <li class="on-click">
+                        <a href="#testimonial" class="on-click"><span aria-hidden="true"></span>Testimonials</a>
                     </li>
-                    <li>
-                        <a href="#contact"><span aria-hidden="true"></span>Contact</a>
+
+                    <li class="on-click">
+                        <a href="#contact" class="on-click"><span aria-hidden="true"></span>Contact</a>
                     </li>
-                </ul>
-            </ul>
-    </nav>
+                </ul> -->
 
     <div id="showcase">
 
@@ -406,9 +471,12 @@
 
 
 
+<!-- jquery cdn -->
+  <!-- jquery cdn -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 
-
+<!-- local js file -->
     <script src="nav.js"></script>
 </body>
 </html>
