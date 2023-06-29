@@ -6,136 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menus.css">
     <title>Tamarzio Deluxe Restaurant | Cafe  </title>
 </head>
 <body>
 <!-- navigation menu section -->
-
-  <!-- <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-      <span class="sr-only">Menu</span>
-    </button> -->
         
       
     <nav id="navbar" class="flex">
-
-        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-            <span class="sr-only">Menu</span>
-          </button>
-
         <div class="logo flex">
-            <!-- <span class="text-primary">Tamarzio</span>
-             <span class="text-primary"> -->
                <img src="./img/chef.png" class="logo-img" alt="">
-               <h2 class="m-heading text-primary flex">
+               <h2 class="logo-text m-heading text-primary flex">
                 Tamarzio
              </h2>
              </div>
 
-
-
-             
-                <ul id="primary-navigation" data-visible="false"  class="primary-navigation flex on-click">
-                    <li class="on-click">
-                        <a href="#" class="on-click"><span aria-hidden="true"></span>Home</a>
-                    </li>
-
-                    <li class="on-click">
-                        <a href="#about" class="on-click"><span aria-hidden="true"></span>About</a>
-                    </li>
-                    <li class="on-click">
-                        <a href="#menu" class="on-click"><span aria-hidden="true"></span>Our Menu</a>
-                    </li>
-
-                    <li class="on-click">
-                        <a href="#gallery" class="on-click"><span aria-hidden="true"></span>Our Gallery</a>
-                    </li>
-                    
-                    <li class="on-click">
-                        <a href="#team" class="on-click"><span aria-hidden="true"></span>Our Team</a>
-                    </li>
-
-                    <li class="on-click">
-                        <a href="#testimonial" class="on-click"><span aria-hidden="true"></span>Testimonials</a>
-                    </li>
-
-                    <li class="on-click">
-                        <a href="#contact" class="on-click"><span aria-hidden="true"></span>Contact</a>
-                    </li>
-                </ul>
-
-        <!-- <ul class="flex"> -->
-            <!-- <li><a href="#">Home</a></li>
-            <li><a href="#about">About Us  <i class="fas fa-caret-down"></i></a>
-            <div class="dropdown_menu">
-                <ul>
-                    <li><a href="#menu">Our Menu</a></li>
-                    <li><a href="#gallery">Our Gallery</a></li>
-                    <li><a href="#team">Our Team</a></li>
-                </ul>
+        <ul class="desk-menu px-1 flex">
+            <div class="nav-links flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#gallery">Our Gallery</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </div>
-            </li> -->
 
-            <!-- <li><a href="#menu">Our Menu</a></li>
-            <li><a href="#gallery">Our Gallery</a></li>
-            <li><a href="#team">Our Team</a></li> -->
+            <!-- hamburger icon -->
+            <button id="menu-btn" class="hamburger">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </ul>
 
-                        <!-- <li><a href="#testimonial">Testimonials</a></li>
-                                    <li><a href="#contact">Contact Us</a></li> -->
-        <!-- </ul> -->
+         <!-- mobile menu -->
+         <ul class="mobile-menu" style="display: none;">
+            <div id="men">
+                    <li><a class="home" href="#">Home</a></li>
+                    <li><a class="what-we-do" href="#about">About Us</a></li>
+                    <li><a class="our-team" href="#team">Our Team</a></li>
+                    <li><a class="testimonies" href="#testimonial">Testimonials</a></li>
+            </div>
+        </ul>
+
     </nav>
 
     <!-- header section -->
     <header>
 
-
-        <!-- <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button> -->
-        
-        <!-- <nav id="navbar" class="flex">
-
-            <div class="logo flex">
-                   <img src="./img/chef.png" class="logo-img" alt="">
-                   <h2 class="m-heading text-primary flex">
-                    Tamarzio
-                 </h2>
-                 </div> -->
-
-
-
-<!-- 
-                <ul id="primary-navigation" data-visible="false"  class="primary-navigation flex">
-                    <li>
-                        <a href="#"><span aria-hidden="true"></span>Home</a>
-                    </li>
-
-                    <li class="on-click">
-                        <a href="#about" class="on-click"><span aria-hidden="true"></span>About</a>
-                    </li>
-                    <li class="on-click">
-                        <a href="#menu" class="on-click"><span aria-hidden="true"></span>Our Menu</a>
-                    </li>
-
-                    <li class="on-click">
-                        <a href="#gallery" class="on-click"><span aria-hidden="true"></span>Our Gallery</a>
-                    </li>
-                    
-                    <li class="on-click">
-                        <a href="#team" class="on-click"><span aria-hidden="true"></span>Our Team</a>
-                    </li>
-
-                    <li class="on-click">
-                        <a href="#testimonial" class="on-click"><span aria-hidden="true"></span>Testimonials</a>
-                    </li>
-
-                    <li class="on-click">
-                        <a href="#contact" class="on-click"><span aria-hidden="true"></span>Contact</a>
-                    </li>
-                </ul> -->
-
     <div id="showcase">
 
         <div class="showcase-content">
             <h1 class="l-heading">
-                <span class="text-primary l-heading">Tamarzio</span> Grandeur
+                <span class="text-primary mobile-heading">Tamarzio</span> Grandeur
+                <!-- <span class="text-primary l-heading">Tamarzio</span> Grandeur -->
             </h1>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -168,13 +93,16 @@
 
                     <p class="n-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                          Minus hic excepturi vitae iste ullam accusantium sequi veniam
-                          explicabo quibusdam, quidem facilis, alias voluptate dolorum quam
-                           repudiandae temporibus nobis porro dolorem autem, ex quos harum itaque?
-                            Amet maxime neque rerum commodi, nobis quasi maiores. Qui repellat
-                             ex error ipsum sapiente culpa perferendis. Quasi provident cupiditate
-                              iure repudiandae laudantium eaque cum voluptatibus.</p>
+                        explicabo quibusdam, quidem facilis, alias voluptate dolorum quam
+                        repudiandae temporibus nobis porro dolorem autem, ex quos harum itaque?
+                        Amet maxime neque rerum commodi, nobis quasi maiores. Qui repellat
+                        ex error ipsum sapiente culpa perferendis. Quasi provident cupiditate
+                        iure repudiandae laudantium eaque cum voluptatibus.
+                    </p>
 
-                 <a href="#about" class="btn-2">Read More</a>
+                  <div class="read">
+                    <a href="#about" class="btn-rounded">Read More</a>
+                </div>
                 </div>
 
             </div>
@@ -202,13 +130,6 @@
                       </h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                   </div>
-
-                  <!-- <div class="boxes boxes-1">
-                      <h2 class="s-heading">
-                          <span class="s-heading line">BERRY SALAD</span>$20
-                      </h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div> -->
 
 
                   <div class="boxes boxes-2">
@@ -243,7 +164,7 @@
                   </div>
               </div>
              <div class="text-center p-2">
-               <a href="#" class="btn-2 text-center">Read More</a>
+               <a href="#" class="btn-rounded text-center">Read More</a>
              </div> 
         </div>
         
@@ -302,7 +223,7 @@
             </div>
 
                 <div class="text-center p-2">
-                    <a href="#" class="btn-2 text-center">Show More</a>
+                    <a href="#" class="btn-rounded text-center">Show More</a>
                   </div> 
         </div>
     </section>
@@ -319,14 +240,17 @@
       
             <h3 class="s-heading text-center">
                     Our Team
-              </h3>
+            </h3>
 
-              <div class="team-grid p-2">
+            <div class="team-grid">
+            <!-- <div class="team-grid p-2"> -->
 
-                <div class="team-card p-1">
-                    <img class="team-doc" src="./img/portraits-3.jpg" alt="" style="width:100%">
+                <div class="team-card">
+                   <div class="images">
+                    <img class="team-doc" src="./img/portraits-3.jpg" alt="">
+                   </div>
                     <div class="card-content">
-                      <h3 class="s-heading">Johnson Douglas</h3>
+                      <h3>Johnson Douglas</h3>
                       <p class="text-primary"> The Chef</p>
                       <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
                       <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
@@ -334,12 +258,14 @@
                       <a href="http://www.google.com"><i class="fab fa-google-plus-g"></i></a>
                       
                     </div>
-                  </div>
+                </div>
         
-                 <div class="team-card p-1">
-                    <img class="team-doc" src="./img/portrait-4.jpg" alt="" style="width:100%">
+                <div class="team-card">
+                   <div class="images">
+                     <img class="team-doc" src="./img/portrait-4.jpg" alt="">
+                   </div>
                     <div class="card-content">
-                      <h3 class="s-heading">Anders Stone</h3>
+                      <h3>Anders Stone</h3>
                       <p class="text-primary">The Chef</p>
                       <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
                       <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
@@ -348,25 +274,25 @@
 
                     </div>
                     
-                  </div>
+                </div>
                   
-                 <div class="team-card p-1">
-                    <img class="team-doc" src="./img/portrait-5.jpg" alt="" style="width:100%">
+                <div class="team-card">
+                  <div class="images">
+                      <img class="team-doc" src="./img/portrait-5.jpg" alt="">
+                  </div>
                     <div class="card-content">
-                      <h3 class="s-heading">Darwin Charles</h3>
-                      <p class="text-primary">The Chef
-                        <!-- <i class="fas fa-facebook-official fa-3x" aria-hidden="true"></i> -->
-                      </p>
+                      <h3>Darwin Charles</h3>
+                      <p class="text-primary">The Chef</p>
                      <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
                      <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
                      <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
                      <a href="http://www.google.com"><i class="fab fa-google-plus-g"></i></a>
                                                 
                     </div>
-                  </div>
+                </div>
         
 
-              </div>
+            </div>
         </div>
     </section>
 
@@ -451,7 +377,7 @@
                 <!-- <button type="submit" class="btn contact-btn p-1">Submit</button> -->
 
             </form>
-                <button type="submit" class="btn contact-btn p-1">Submit</button>
+                <button type="submit" class="contact-btn p-1">Submit</button>
            
         </div>
     </section>
@@ -469,11 +395,10 @@
 </div>
 </footer>
 
-
-
-<!-- jquery cdn -->
   <!-- jquery cdn -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+  crossorigin="anonymous"></script>
 
 
 <!-- local js file -->

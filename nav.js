@@ -1,26 +1,44 @@
-// side bar navigation menu
+const btn = document.getElementById('menu-btn')
+const navContainer = document.querySelector('.mobile-menu')
+const nav = document.getElementById('men')
+const Home = document.querySelector('.home')
+const About = document.querySelector('.what-we-do')
+const Teams = document.querySelector('.our-team')
+const Testimonial = document.querySelector('.testimonies')
 
-const primaryNav = document.querySelector(".primary-navigation");
-const navToggle = document.querySelector(".mobile-nav-toggle")
+// navContainer.style.display = "none"
 
-navToggle.addEventListener("click", toggleNav);
 
-function toggleNav(){
-    const visibility = primaryNav.getAttribute("data-visible") 
-    // console.log(10)
+btn.addEventListener('click', function(){
+    btn.classList.toggle('open')
+    nav.classList.toggle('mobile-menu')
+    navContainer.style.display = (navContainer.style.display == 'none') ? 'block' : 'none';
+    // navContainer.style.transition = 'display 3s ease-in-out';
+})
 
-    if(visibility === "false") {
-        primaryNav.setAttribute("data-visible", true);
-        navToggle.setAttribute('aria-expanded', true);
-    } else if (visibility === "true") {
-        primaryNav.setAttribute("data-visible", false);
-        navToggle.setAttribute('aria-expanded', false);
-    }
-}
+Home.addEventListener('click', function(){
+    btn.classList.toggle('open')
+    nav.classList.toggle('mobile-menu')
+    navContainer.style.display = "none"
+})
 
-const primaryMenu = document.querySelector(".on-click");
-primaryMenu.addEventListener("click", toggleNav);
+About.addEventListener('click', function(){
+    btn.classList.toggle('open')
+    nav.classList.toggle('mobile-menu')
+    navContainer.style.display = "none"
+})
 
+Teams.addEventListener('click', function(){
+    btn.classList.toggle('open')
+    nav.classList.toggle('mobile-menu')
+    navContainer.style.display = "none"
+})
+
+Testimonial.addEventListener('click', function(){
+    btn.classList.toggle('open')
+    nav.classList.toggle('mobile-menu')
+    navContainer.style.display = "none"
+})
 
 
   // smooth scrolling
@@ -37,4 +55,3 @@ primaryMenu.addEventListener("click", toggleNav);
       )
     }
   })
-  
